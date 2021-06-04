@@ -15,7 +15,7 @@ start:
 		-w /$(APP_NAME) $(ELIXIR_DOCKER_IMAGE)))
 
 deps: start
-	echo "❄️  deps.get"
+	echo "❄️  deps.get ..."
 	docker exec $(CONTAINER) bash -c "mix local.hex --force" > /dev/null
 	docker exec $(CONTAINER) bash -c "mix local.rebar --force" > /dev/null
 	docker exec $(CONTAINER) bash -c "mix deps.get" > /dev/null
