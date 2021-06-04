@@ -25,7 +25,6 @@ defmodule StatusCheck.MixProject do
   defp deps do
     [
       {:httpoison, "~> 1.8"},
-      {:jason, "~> 1.2"},
 
       {:mock, "~> 0.3.0"}
     ]
