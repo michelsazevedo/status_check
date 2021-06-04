@@ -1,4 +1,4 @@
-##Parallel Download
+## Parallel Download
 
 Write an elixir program that takes a list of URLs and makes GET requests to them in parallel. Print out the time taken to complete each request and its resulting HTTP code.
 Be sure to handle cases when some URLs are invalid or when the server doesn‚Äôt respond. e.g:
@@ -14,7 +14,7 @@ GET inactive-domain.blah -> 500ms nxdomain
 IGNORED htpp://not-a-web-url
 ```
 
-###Some guidelines:
+### Some guidelines:
 
 - Add a README file with a high level description of the system design
 - Try to document your decisions, including any libraries used.
